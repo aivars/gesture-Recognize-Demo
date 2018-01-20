@@ -34,7 +34,6 @@ class ViewController: UIViewController {
     
     @objc func handlePan(sender: UIPanGestureRecognizer) {
         
-        let swipeObjectView = sender.view
         let translation = sender.translation(in: view)
         
         switch sender.state {
@@ -58,7 +57,6 @@ class ViewController: UIViewController {
         }
         
     }
-   
     
 }
 
