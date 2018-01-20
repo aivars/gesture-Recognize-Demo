@@ -11,7 +11,6 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var dragViewForPicture: UIView!
-    @IBOutlet weak var SwipipeArea: UIView!
     @IBOutlet weak var textLabel: UILabel!
     @IBOutlet weak var bacgroundImageView: UIImageView!
     
@@ -57,6 +56,6 @@ class ViewController: UIViewController {
         }
         
     }
-    
+
 }
 
