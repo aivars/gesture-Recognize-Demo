@@ -12,6 +12,7 @@
 		60A360B0200DE39B00FBE925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60A360AE200DE39B00FBE925 /* Main.storyboard */; };
 		60A360B2200DE39B00FBE925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60A360B1200DE39B00FBE925 /* Assets.xcassets */; };
 		60A360B5200DE39B00FBE925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60A360B3200DE39B00FBE925 /* LaunchScreen.storyboard */; };
+		60A360BD200DE98900FBE925 /* SubviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A360BC200DE98900FBE925 /* SubviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		60A360B1200DE39B00FBE925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60A360B4200DE39B00FBE925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60A360B6200DE39B00FBE925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60A360BC200DE98900FBE925 /* SubviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				60A360AA200DE39B00FBE925 /* AppDelegate.swift */,
 				60A360AC200DE39B00FBE925 /* ViewController.swift */,
+				60A360BC200DE98900FBE925 /* SubviewViewController.swift */,
 				60A360AE200DE39B00FBE925 /* Main.storyboard */,
 				60A360B1200DE39B00FBE925 /* Assets.xcassets */,
 				60A360B3200DE39B00FBE925 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60A360AD200DE39B00FBE925 /* ViewController.swift in Sources */,
+				60A360BD200DE98900FBE925 /* SubviewViewController.swift in Sources */,
 				60A360AB200DE39B00FBE925 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
